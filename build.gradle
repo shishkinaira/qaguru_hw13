@@ -55,4 +55,9 @@ task remote_form(type:Test){
     useJUnitPlatform(){
         includeTags("remote")
     }
+    task property_test(type:Test) {
+        useJUnitPlatform() {
+            includeTags("properties")
+        }
+    }
 }
