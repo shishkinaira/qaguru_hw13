@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestSimpleFormWithComments extends TestBase {
-    @Tag("formtest")
+    @Tag("properties")
     @DisplayName("Checking form and result content without Objects")
     @Test
     void successTest() {

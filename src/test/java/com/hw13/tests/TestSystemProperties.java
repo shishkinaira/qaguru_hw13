@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 public class TestSystemProperties {
     @Test
-    @Tag("properties")
     void testSystemProperties() {
         System.out.println(System.getProperty("selenoid"));
         System.out.println(System.getProperty("baseUrl"));
