@@ -10,7 +10,7 @@ public class TestRemoteSimpleFormWithPageObjects extends TestRemoteBase {
     @Tag("remote")
     @Tag("properties")
     @Test
-    @DisplayName("Checking form and result content")
+    @DisplayName("Checking form and result content with Objects")
     void successfulRegistrationTest() {
         //Проверка заполения формы
         simpleFormWithPageObjects.openPage()

@@ -1,5 +1,8 @@
 package com.hw13.tests;
 
+import io.qameta.allure.Step;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import java.io.File;
 
@@ -9,13 +12,13 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestSimpleFormWithComments extends TestBase {
-
+    @Tag("formtest")
+    @DisplayName("Checking form and result content without Objects")
     @Test
     void successTest() {
         open("/automation-practice-form");
         executeJavaScript("$('footer').remove()");
         executeJavaScript("$('#fixedban').remove()");
-
         //fill form
         $("#firstName").setValue("TestFirstName");
         $("#lastName").setValue("TestLastN");
