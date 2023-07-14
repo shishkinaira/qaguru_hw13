@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class TestSystemProperties {
+
     @Test
     void testSystemProperties() {
         System.out.println(System.getProperty("selenoid"));
