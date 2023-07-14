@@ -8,6 +8,7 @@ public class TestRemoteSimpleFormWithPageObjects extends TestRemoteBase {
     SimpleFormWithPageObjects simpleFormWithPageObjects = new SimpleFormWithPageObjects();
     @Tag("formtest")
     @Tag("remote")
+    @Tag("properties")
     @Test
     @DisplayName("Checking form and result content")
     void successfulRegistrationTest() {
