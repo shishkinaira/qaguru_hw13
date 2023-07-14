@@ -12,7 +12,6 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestSimpleFormWithComments extends TestBase {
-    @Tag("properties")
     @DisplayName("Checking form and result content without Objects")
     @Test
     void successTest() {
@@ -31,7 +30,7 @@ public class TestSimpleFormWithComments extends TestBase {
         $(".react-datepicker__day--030:not(.react-datepicker__day--outside-month)").click();
         $("#subjectsInput").setValue("Maths").pressEnter();
         $("#hobbiesWrapper").$(byText("Sports")).click();
-        $("#uploadPicture").uploadFile(new File("src/test/resources/img/1.png"));
+        $("#uploadPicture").uploadFile(new File("resources/1.png"));
         $("#currentAddress").setValue("TestCurrentAddress");
         $("#state").click();
         $("#stateCity-wrapper").$(byText("NCR")).click();
