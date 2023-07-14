@@ -1,4 +1,4 @@
-package com.hw12.tests;
+package com.hw13.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;

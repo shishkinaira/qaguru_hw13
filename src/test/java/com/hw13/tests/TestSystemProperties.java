@@ -1,4 +1,4 @@
-package com.hw12.tests;
+package com.hw13.tests;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -11,5 +11,6 @@ public class TestSystemProperties {
         System.out.println(System.getProperty("baseUrl"));
         System.out.println(System.getProperty("browser"));
         System.out.println(System.getProperty("browserSize"));
+        System.out.println(System.getProperty("browserVersion"));
     }
 }

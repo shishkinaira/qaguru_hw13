@@ -1,4 +1,4 @@
-package com.hw12.pages.components;
+package com.hw13.pages.components;
 
 import com.codeborne.selenide.SelenideElement;
 

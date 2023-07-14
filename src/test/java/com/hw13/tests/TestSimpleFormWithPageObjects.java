@@ -1,5 +1,5 @@
-package com.hw12.tests;
-import com.hw12.pages.SimpleFormWithPageObjects;
+package com.hw13.tests;
+import com.hw13.pages.SimpleFormWithPageObjects;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
