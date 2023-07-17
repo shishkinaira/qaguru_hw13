@@ -43,7 +43,7 @@ allure {
 
 tasks.withType(Test) {
     useJUnitPlatform()
-    testSystemProperties(System.getProperties())
+    systemProperties(System.getProperties())
 
     testLogging {
         lifecycle {
