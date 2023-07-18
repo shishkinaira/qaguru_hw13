@@ -31,8 +31,7 @@ public class TestRemoteBase {
     }
 
     @BeforeEach
-    void addListener() {
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+    void addListener() {SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
     @AfterEach
