@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 
 public class TestRemoteSimpleFormWithPageObjects extends TestRemoteBase {
     SimpleFormWithPageObjects simpleFormWithPageObjects = new SimpleFormWithPageObjects();
-    @Tag("formtest")
-    @Tag("remote")
+
+
     @Tag("properties")
     @Test
     @DisplayName("Checking form and result content with Objects")
